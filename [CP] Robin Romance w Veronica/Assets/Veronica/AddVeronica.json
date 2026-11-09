@@ -32,12 +32,7 @@
       "Target": "Characters/Dialogue/Robin",
       "FromFile": "Assets/Characters/Dialogue/Veronica.json",
     },
-    /*{
-      "LogName": "Schedule",
-      "Action": "Load",
-      "Target": "Characters/schedules/Robin",
-      "FromFile": "Assets/Characters/Schedules/Robin.json",
-    },*/
+    // Veronica replaces the vanilla Robin NPC and keeps her vanilla schedule.
 	// As of 1.6, NPC Dispositions is now part of Data/Characters. Left in case there should be a need for compatibility with pre-1.6 versions of the game.
   /* {
       "LogName": "NPC Dispositions",
