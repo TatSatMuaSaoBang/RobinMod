@@ -51,16 +51,39 @@
 	"fall_Ram": "I love the holidays and the colder weather. And you'll be done with farming soon, so we'll be able to spend more time together!",
 	"summer_Ram": "Summer is the best time of year for work. It might be hot out but at least I don't have to deal with a lot of rain.",
 	"winter_Ram": "Brr... I'm freezing. Would you hold me close and warm me up?",
-	"spouseRoom_Ram": "I'd love to get a lathe, but I can't put it in here...#$b#Hmm, maybe I should build a work shed so I don't have to always go up to the carpentry shop."
-
-
-
-
-
-
-
-
-
-
+	"spouseRoom_Ram": "I'd love to get a lathe, but I can't put it in here...#$b#Hmm, maybe I should build a work shed so I don't have to always go up to the carpentry shop.",
+	// Additional spouse dialogue: playful, affectionate, domestic, and varied.
+	"Rainy_Day_5": "I was going to work on the porch, but the rain talked me out of it.#$b#So I made us breakfast instead. Don't look so surprised! I can be domestic when I feel like it.$1",
+	"Rainy_Day_6": "Come sit with me for a minute. We can listen to the rain and pretend the whole Valley has nowhere else to be.$6",
+	"Rainy_Day_7": "I found an old sketch of a little house I designed years ago. It had a ridiculous number of windows.#$b#I think I'd like to draw a new version. This time, I'll put you in it.$h",
+	"Rainy_Night_6": "You're home! I saved the coziest spot by the fire for you.#$b#There's room for two, provided one of us doesn't steal the blanket. I'm looking at you, honey.$7",
+	"Rainy_Night_7": "I tried to read, but I kept listening for your footsteps.#$b#It's silly. I knew you'd come home eventually. Still... the house feels more like home when you're in it.$6",
+	"Rainy_Night_8": "I made a little wooden bird today. It isn't perfect, but I think you'll like it.#$b#I was going to leave it on your desk as a surprise. Then I got impatient and wanted to see your face when I gave it to you.$h",
+	"Indoor_Day_5": "I moved a few things around this morning. Don't worry, I remembered where you keep everything.#$b#Mostly. If you can't find your favorite mug, it may have migrated to a better shelf.$1",
+	"Indoor_Day_6": "I caught myself humming while I worked today. I used to do that when the children were little.#$b#I think I've been doing it more since we got married. You have that effect on me.$6",
+	"Indoor_Day_7": "I made a list of projects for the farm. It was a very sensible list.#$b#Then I added 'kiss my spouse for no particular reason' halfway down. It's an important maintenance task.$9",
+	"Indoor_Day_8": "I was thinking about how strange it is that two people can start as strangers and end up knowing exactly how the other takes their tea.#$b#I know your habits now. I even know the sound you make when you're pretending not to be tired.$1",
+	"Indoor_Day_9": "I had a dream that we opened a little furniture shop together. You handled the customers, and I made the furniture.#$b#Then you gave every customer a free chair. We went bankrupt in a week. It was a lovely dream.$h",
+	"Indoor_Night_5": "I have a proposal. We turn off the lights, put the tools away, and spend the rest of the evening doing absolutely nothing.#$b#I know, I know. A radical concept for a carpenter.$1",
+	"Indoor_Night_6": "You look tired. Come here, let me fix your collar.#$b#There. Much better. Although I have to admit, I liked having an excuse to stand this close.$9",
+	"Indoor_Night_7": "Sometimes I still can't believe this is my life. A warm house, a full table, and someone who chooses me every morning.#$b#I don't need every day to be extraordinary. I just want a lot more ordinary days with you.$6",
+	"Indoor_Night_8": "I was going to tell you something serious, but you walked in looking so handsome that I forgot the entire speech.#$b#You'll have to take responsibility for that.$9",
+	"Indoor_Night_9": "I saved the last piece of pie for you. I considered eating it. I considered it very seriously.#$b#Then I remembered I like you more than pie. Barely.$7",
+	"Outdoor_5": "I started a small project for the porch. It's going to be a bench, wide enough for two.#$b#I may have measured it so there's just enough room for you to sit close to me.$1",
+	"Outdoor_6": "The farm is beautiful today. I think I'll take a break and walk around with you.#$b#Work can wait. My favorite person is right here.$6",
+	"Outdoor_7": "I found a piece of unusually pretty wood near the trees. I'm saving it for something special.#$b#Maybe a little keepsake for our anniversary. Don't ask what it is yet!$h",
+	"Outdoor_8": "I was watching you work from over here. You get this very serious look when you're concentrating.#$b#It's rather charming. Distracting, even. I nearly forgot what I was building.$9",
+	"Good_7": "Do you remember the first time we spent a whole afternoon together? I went home thinking about our conversation.#$b#I didn't know then how much of my life would come to include you. I'm glad it did.$6",
+	"Good_8": "I still have the first little sketch I made of our farmhouse. I drew two chairs on the porch.#$b#Back then I wasn't sure who would sit in the second one. I like the answer now.$1",
+	"Good_9": "I have a secret. Sometimes I walk past you just to see if you'll reach for my hand.#$b#And when you do, I feel ridiculously pleased with myself. There, now you know.$9",
+	"Good_10": "I used to think romance meant grand gestures. Flowers, dramatic speeches, the whole thing.#$b#Now I think it's remembering how someone likes their coffee, fixing the loose step before they trip, and saving them the warm side of the bed.$6",
+	"Good_11": "I was talking to Leah about us. She said I seem lighter lately.#$b#I told her it's because I married someone who makes me laugh at my own terrible jokes. She said that explains everything.$h",
+	"Good_12": "I made something for you. It's a small wooden pendant, nothing fancy.#$b#The grain has a little knot in it. I could have cut it away, but I liked the way it looked. A little imperfection makes it yours.$1",
+	"Good_13": "Come closer. No, closer than that.#$b#There. I wanted to tell you that I love you, but I also wanted to steal a kiss. I can multitask.$9",
+	"Good_14": "I was remembering the years when I thought I had to solve everything alone.#$b#I'm still independent, you know. I still like doing things myself. But I don't have to carry every heavy thing by myself anymore.$6",
+	"Good_15": "I caught myself telling Maru about something you did yesterday. I made it sound like a very important scientific discovery.#$b#She said, 'Mom, you just think your spouse is cute.' ...Well. She's not wrong.$7",
+	"Good_16": "If I ever get too wrapped up in a project, remind me to stop and have dinner with you.#$b#Actually, don't remind me. Just come into the workshop and kiss me. I'll understand the message.$9",
+	"Good_17": "I like the way you say my name. It's ordinary, really. Just a name.#$b#But when it's you saying it, I always want to turn around.$6",
+	"Good_18": "I was going to surprise you with breakfast in bed, but I dropped the tray.#$b#The good news is that the floor is clean now. The bad news is that I ate the evidence. Happy morning, darling.$h"
 
 }
