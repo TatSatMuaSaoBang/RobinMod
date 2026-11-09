@@ -1,0 +1,39 @@
+{
+   "Name": "CP_Robin_Romance",
+   "Author": "Soapierbean",
+   "Version": "1.5.1",
+   "Description": "Adds Robin to the game, as well as Veronica (can be toggled off in config).",
+   "UniqueID": "Fonz.Ram",
+   "MinimumApiVersion": "3.8",
+   "UpdateKeys": [ "Nexus:3239" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.0.1"
+   },
+   "Dependencies": [
+   	{
+   		"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+   		"MinimumVersion": "1.13.11",
+   		"IsRequired": false
+   		},
+   	{
+   		"UniqueID": "misscoriel.UCRFix",
+   		"MinimumVersion": "1.1.10",
+   		"IsRequired": false
+   		},		
+	{
+		"UniqueID": "violetlizabet.CP.FireworksFestival",
+		"MinimumVersion": "2.0.1",
+		"IsRequired": false
+	},
+	{
+		"UniqueID": "Rafseazz.RSVCP",
+		"MinimumVersion": "2.5.11",
+		"IsRequired": false
+	},
+	{
+		"UniqueID": "Poltergeister.SeasonalCuteCharacters",
+		"IsRequired": true
+	}
+   	]
+}
