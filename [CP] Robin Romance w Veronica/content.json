@@ -57,6 +57,11 @@
     	 "Default": "False",
     	 "Description": "Adds Robin's kissing sprite for seasonal outfit mods, but the kissing sprite uses her regular clothes. Flower Dance and Wedding Dress sprites should function without this option."
     },
+    "EnableRobinSeasonalOutfits": {
+      "AllowValues": "True, False",
+      "Default": "True",
+      "Description": "Uses the custom seasonal, beach, festival, and aerobics outfits included for Robin."
+    },
     "ParentNoun": {
     	 "AllowBlank": true,
     	 "Default": "parent",
@@ -2320,17 +2325,266 @@
 	 "53/e 55/t 1500 1700": "none/-100 -100/farmer 28 57 1 Sophia 34 66 0 Andy 37 60 3 Olivia 30 65 0 Victor 29 65 0 Susan 27 63 1 Evelyn 37 58 3 Gus 30 56 2 Pam 31 56 2 Vincent 27 55 2 Jas 26 55 2 George 37 59 3 Leah 32 61 1 Shane 34 61 3 Ram 27 61 1 Demetrius 28 61 3 Emily 30 58 2 Clint 31 59 3 Harvey 34 57 2 Lewis 35 59 3 Marnie 35 58 3 Elliott 31 63 3 Maru 33 57 2 Sebastian 35 62 1 Abigail 35 63 1 Sam 36 61 2 Penny 37 62 3 Pierre 32 65 1 Caroline 33 65 3 Haley 28 59 1 Alex 28 58 1/specificTemporarySprite leahShow/skippable/animate LeahEx false true 100 4 5/viewport 33 60 true/move farmer 1 0 1/faceDirection Sebastian 2 true/faceDirection Alex 0 true/move farmer 1 0 1/faceDirection Sebastian 1 true/faceDirection Maru 3 true/move farmer 2 0 1/faceDirection Alex 1 true/faceDirection Maru 2 true/move farmer 0 1 2/faceDirection Shane 0 true/faceDirection Emily 2 true/move farmer 0 1 2/faceDirection Shane 3 true/move farmer 0 1 2/faceDirection Emily 0/move Shane 1 0 2/faceDirection Leah 0/speak Leah \"@! You're here!$h#$b#Okay... I guess I'd better introduce my pieces. Wish me luck!$l\"/pause 300/faceDirection Leah 2/pause 800/faceDirection Leah 1/faceDirection Leah 2/faceDirection Leah 3/faceDirection Leah 2/speak Leah \"Umm... Okay everyone!\"/faceDirection Sebastian 3 true/faceDirection Emily 1/faceDirection Demetrius 1 true/faceDirection Elliott 0/faceDirection Pierre 0 true/faceDirection Caroline 0 true/faceDirection Shane 3/faceDirection Sam 3 true/faceDirection Abigail 3/speak Leah \"Thanks for coming to my art show.$l\"/faceDirection Leah 1/speak Leah \"As some of you know, I came to this town because I wanted to draw inspiration from the beautiful surroundings.\"/faceDirection Leah 3/speak Leah \"This place really feels like home now.$h#$b#Okay. I'm going to introduce my sculptures now.\"/playMusic jaunty/move Leah -3 0 0/faceDirection farmer 3 true/faceDirection Marnie 3 true/faceDirection Emily 3 true/faceDirection Demetrius 0/move Leah 0 -1 0/speak Leah \"I haven't named this one, yet. She started out as an exercise in human anatomy, but I ended up seeing her through to completion.#$b#Her expression is intentionally unclear... is she embarrassed, amused, pained? I'll leave that for you to decide.\"/pause 1500/move Leah 0 1 2/faceDirection Demetrius 2 true/faceDirection Haley 2 true/faceDirection farmer 2/faceDirection Emily 2 true/faceDirection Clint 2 true/pause 500/speak Leah \"This one's called 'Post-Dimensional Nullspace'. It represents the boundary of human imagination.$u#$b#The shape and color came to me vividly when I was in a 'trance state'.\"/pause 1500/move Leah 3 0 2/faceDirection Demetrius 1 true/move Leah 0 1 1/faceDirection Haley 1/speak Leah \"I've been calling this one 'Egg Heads'. I wanted to create an animatronic humanoid statue to toy with the viewer's ability to properly attribute personhood to a physical entity. \"/pause 1500/move Leah 0 -1 0/pause 300/faceDirection Leah 2/speak Leah \"And the last one is called 'Wood Sculpture 3'. It's a celebration of my favorite sculpting material... wood.\"/faceDirection Leah 3/faceDirection Leah 1/faceDirection Leah 2/speak Leah \"Well, those are my sculptures!$l#$b#Oh! One last thing.\"/faceDirection Leah 0/speak Leah \"I'd like to say thanks to my special friend, @.#$b#{{CapitalSubjectivePronoun}} gave me the idea for this show and the courage to go through with it. I know that sounds cheesy, but it's true.\"/faceDirection Emily 1/faceDirection Shane 3 true/faceDirection Haley 1/faceDirection Elliott 3/pause 400/speak Lewis \"I'm proud of you, Leah! Events like this really breathe life into our little town!$h\"/pause 100/textAboveHead Gus \"Great stuff!\"/faceDirection Leah 3/speak Demetrius \"I love your art, Leah! 'Post-Dimensional Nullspace' is my favorite.$h\"/textAboveHead Ram \"Great use of wood!\"/speak Penny \"Thanks for doing this!$h\"/faceDirection Leah 1/emote Leah 32/faceDirection Leah 2/pause 600/speak Olivia \"Exquisite art, Leah!$3\"/pause 200/speak Leah \"Thanks, everyone!$h\"/faceDirection Leah 0/emote Leah 20/pause 500/speak Lewis \"Now let's start the bidding on these wonderful art pieces... A marvelous addition to your home!$h#$b#Do I hear 5000g for the pink one?\"/jump Demetrius/mail afterArtShow/viewport move 2 0 8000/pause 5000/globalFade/viewport -1000 -1000/end dialogue Leah \"Wow! I'm exhausted.#$b#My show was a real success, wasn't it?$h\"",
 	 			},
 	},
-	
-      
-      
-     
-     
-     
-     
-     
-      
-      
-      
+    // Custom outfits for the romanceable Robin NPC (internal ID: Ram).
+    {
+      "LogName": "Robin Spring seasonal outfit sprite",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Spring",
+      "FromFile": "Assets/Characters/Robin_Spring.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Spring seasonal outfit portrait",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Spring",
+      "FromFile": "Assets/Portraits/Robin_Spring.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Summer seasonal outfit sprite",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Summer",
+      "FromFile": "Assets/Characters/Robin_Summer.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Summer seasonal outfit portrait",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Summer",
+      "FromFile": "Assets/Portraits/Robin_Summer.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Fall seasonal outfit sprite",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Fall",
+      "FromFile": "Assets/Characters/Robin_Fall.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Fall seasonal outfit portrait",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Fall",
+      "FromFile": "Assets/Portraits/Robin_Fall.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Winter_Indoor seasonal outfit sprite",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Winter_Indoor",
+      "FromFile": "Assets/Characters/Robin_Winter_Indoor.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Winter_Indoor seasonal outfit portrait",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Winter_Indoor",
+      "FromFile": "Assets/Portraits/Robin_Winter_Indoor.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Winter_Outdoor seasonal outfit sprite",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Winter_Outdoor",
+      "FromFile": "Assets/Characters/Robin_Winter_Outdoor.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Winter_Outdoor seasonal outfit portrait",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Winter_Outdoor",
+      "FromFile": "Assets/Portraits/Robin_Winter_Outdoor.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Beach seasonal outfit sprite",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Beach",
+      "FromFile": "Assets/Characters/Robin_Beach.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Beach seasonal outfit portrait",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Beach",
+      "FromFile": "Assets/Portraits/Robin_Beach.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Aerobics seasonal outfit sprite",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Aerobics",
+      "FromFile": "Assets/Characters/Robin_Aerobics.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin Aerobics seasonal outfit portrait",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Aerobics",
+      "FromFile": "Assets/Portraits/Robin_Aerobics.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin FlowerDance seasonal outfit sprite",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_FlowerDance",
+      "FromFile": "Assets/Characters/Robin_FlowerDance.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin FlowerDance seasonal outfit portrait",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_FlowerDance",
+      "FromFile": "Assets/Portraits/Robin_FlowerDance.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin SpiritsEve seasonal outfit sprite",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_SpiritsEve",
+      "FromFile": "Assets/Characters/Robin_SpiritsEve.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin SpiritsEve seasonal outfit portrait",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_SpiritsEve",
+      "FromFile": "Assets/Portraits/Robin_SpiritsEve.png",
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      }
+    },
+    {
+      "LogName": "Robin seasonal and contextual appearances",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": [
+        "Ram",
+        "Appearance"
+      ],
+      "When": {
+        "EnableRobinSeasonalOutfits": "True"
+      },
+      "Entries": {
+        "{{ModId}}_Robin_Spring": {
+          "Id": "{{ModId}}_Robin_Spring",
+          "Portrait": "Portraits/{{ModId}}_Robin_Spring",
+          "Sprite": "Characters/{{ModId}}_Robin_Spring",
+          "Season": "spring",
+          "Precedence": -110,
+          "Weight": 1
+        },
+        "{{ModId}}_Robin_Summer": {
+          "Id": "{{ModId}}_Robin_Summer",
+          "Portrait": "Portraits/{{ModId}}_Robin_Summer",
+          "Sprite": "Characters/{{ModId}}_Robin_Summer",
+          "Season": "summer",
+          "Precedence": -110,
+          "Weight": 1
+        },
+        "{{ModId}}_Robin_Fall": {
+          "Id": "{{ModId}}_Robin_Fall",
+          "Portrait": "Portraits/{{ModId}}_Robin_Fall",
+          "Sprite": "Characters/{{ModId}}_Robin_Fall",
+          "Season": "fall",
+          "Precedence": -110,
+          "Weight": 1
+        },
+        "{{ModId}}_Robin_Winter_Indoor": {
+          "Id": "{{ModId}}_Robin_Winter_Indoor",
+          "Portrait": "Portraits/{{ModId}}_Robin_Winter_Indoor",
+          "Sprite": "Characters/{{ModId}}_Robin_Winter_Indoor",
+          "Season": "winter",
+          "Indoors": true,
+          "Outdoors": false,
+          "Precedence": -110,
+          "Weight": 1
+        },
+        "{{ModId}}_Robin_Winter_Outdoor": {
+          "Id": "{{ModId}}_Robin_Winter_Outdoor",
+          "Portrait": "Portraits/{{ModId}}_Robin_Winter_Outdoor",
+          "Sprite": "Characters/{{ModId}}_Robin_Winter_Outdoor",
+          "Season": "winter",
+          "Indoors": false,
+          "Outdoors": true,
+          "Precedence": -110,
+          "Weight": 1
+        },
+        "{{ModId}}_Robin_Beach": {
+          "Id": "{{ModId}}_Robin_Beach",
+          "Portrait": "Portraits/{{ModId}}_Robin_Beach",
+          "Sprite": "Characters/{{ModId}}_Robin_Beach",
+          "Season": "summer",
+          "Indoors": false,
+          "Outdoors": true,
+          "Condition": "LOCATION_NAME TARGET Beach, SEASON Summer",
+          "IsIslandAttire": false,
+          "Precedence": -200,
+          "Weight": 1
+        },
+        "{{ModId}}_Robin_Aerobics": {
+          "Id": "{{ModId}}_Robin_Aerobics",
+          "Portrait": "Portraits/{{ModId}}_Robin_Aerobics",
+          "Sprite": "Characters/{{ModId}}_Robin_Aerobics",
+          "Indoors": true,
+          "Outdoors": false,
+          "Condition": "LOCATION_NAME TARGET SeedShop, DAY_OF_WEEK Tue",
+          "Precedence": -200,
+          "Weight": 1
+        },
+        "{{ModId}}_Robin_FlowerDance": {
+          "Id": "{{ModId}}_Robin_FlowerDance",
+          "Portrait": "Portraits/{{ModId}}_Robin_FlowerDance",
+          "Sprite": "Characters/{{ModId}}_Robin_FlowerDance",
+          "Condition": "IS_EVENT festival_spring24",
+          "Precedence": -300,
+          "Weight": 1
+        },
+        "{{ModId}}_Robin_SpiritsEve": {
+          "Id": "{{ModId}}_Robin_SpiritsEve",
+          "Portrait": "Portraits/{{ModId}}_Robin_SpiritsEve",
+          "Sprite": "Characters/{{ModId}}_Robin_SpiritsEve",
+          "Condition": "IS_EVENT festival_fall27",
+          "Precedence": -300,
+          "Weight": 1
+        }
+      }
+    }
+
 ]
 }
 // Issues fixed by MissCoriel on Stardew Modding Discord
