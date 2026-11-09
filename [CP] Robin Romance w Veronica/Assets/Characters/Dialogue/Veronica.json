@@ -10,8 +10,8 @@
 		"AcceptGift_(O)636": "Thanks, @. #$c 0.7#I'll be sure to enjoy it!#Did you know that Robin and I used to fight over peaches when we were kids? I let her win, at least most of the time, of course.",//Peach
 		//I don't think this one is really needed. "AcceptGift_(O)725": "Oak Resin",//Oak Resin
 		"AcceptGift_(O)66": "Thanks.#$c 0.9#See you later.#Order 66 received. Sorry, I can be a dork sometimes. But hey, if this was a lightsaber crystal, purple would be the best.",//Amethyst, item number 66
-		"GreenRain": "This rain is crazy. I feel like we're in a scifi movie, exploring a strange new planet.#$b#*sigh* I want to go help Demetrius collect samples, but Robin would kill me if I didn't stay with Sebastian and Maru.$s%noturn",
-		"GreenRainFinished": "I can't wait to see what information his samples will yield.#$b#Hopefully it'll happen again so we can obtain even more samples!$h",
+		"GreenRain": "This rain is crazy. I feel like we're in a sci-fi movie, exploring a strange new planet.#$b#Part of me wants to help Demetrius collect samples. His curiosity was one of the things I fell for. But I promised Robin I'd stay with Sebastian and Maru.$s%noturn",
+		"GreenRainFinished": "Demetrius was so excited about his samples that he barely noticed how late it had gotten. I still like seeing him passionate about something.#$b#I only wish he remembered that sharing a life with someone takes attention, too.$2",
 		"GreenRain_2": "It's a good day to chop some wood. Good luck out there!",
 		"divorced_Sebastian": "Sebastian moved back into the basement... I'm still having a hard time believing it.$s",
 		"divorced_Maru": "Maru was crying through the night... Perhaps she'll be better off in the end, though.$s",
@@ -49,7 +49,7 @@
         "Wed4": "I tried to cook some lasagna the other day. But...it turned out terrible.#$b#I don't think mozzarella is supposed to be hard as a rock.$2",
     	"Wed6": "I'm a terrible cook, but Demetrius always tries whatever I concoct.#$b#Lately he's been helping me learn how to bake better; he's not much of a cook, but he's a great baker.",
     	"Wed8": "So it turns out I might have magic.#$b#I know, but really. The other day I brewed some soup that turned the family blue.$2#$b#I'm just kidding! I think it came out okay. You should come over for dinner one of these nights, I'd be glad to show off how much better I've gotten.$1",
-    	"Wed10": "It still amazes me that Robin built this house herself. I might be a carpenter, but Robin's got a talent for it.#$b#Hopefully I'll get to build a place like this for my own family one day.",
+    	"Wed10": "Robin built this house herself, and I still admire how she made it feel like a home. I used to think marriage would do that automatically. I'm learning that a home needs attention long after the walls are finished.$2",
         "Thu": "You're always welcome to visit us, even if you aren't shopping, you know.$h#$e#It can get pretty lonely up here in the mountains.",
         "Thu4": "You know how I got into carpentry?#$b#Robin really liked birds as a kid, so I decided to build her a birdhouse for her birthday. Turned out I really enjoyed working with wood.$4",
     	"Thu6": "You should come join us sometime at the cabin. It's been a while since I watched Star Fighters. We could binge it all night!",
@@ -77,7 +77,7 @@
         "Sat2_2": "Our house is in such a beautiful area, don't you think?#$e#I love the fresh air of the mountains.",
         "Sat6": "One of my favorite things about being up here in the mountains is sitting outside and drinking a warm cup of coffee.#$b#It's nice that the newspaper is still running too. I know most people would probably prefer to use a screen, but I still like reading the comics in the paper the old fashioned way.$4#$b#There's nothing like a warm cup of coffee and the comics section to start your day.$1",
         "Sun": "I hope Demetrius doesn't blow the house up with those science experiments of his.#$e#I'm not even sure what he's working on. I think it has something to do with plants.",
-        "Sun2": "#$1 RobinDem#Demetrius almost set the house on fire last night with his science experiment. One of his beakers exploded and sent a fireball into the rafters! Thank Yoba Robin used fire-resistant lacquer when she built the place.$u#$e#Sorry if it smells weird in here, @. It's Demetrius's bizarre science project...",
+        "Sun2": "#$1 VeronicaDem#Demetrius left an experiment running late last night. I asked him to shut it down before we went to bed, but he said the readings were too important to interrupt.#$e#Nothing caught fire this time. Still, I hate having to argue just to feel safe in my own home.$u#$b#He called my concern an overreaction. I wish he would listen before he starts measuring whether I'm right.",
         "Sun4": "
 				Hi @!
 				#$q 85434/85435 favColorVer_followup#I'm curious, do you know what my favorite color is?
@@ -122,4 +122,20 @@
     	"winter_9": "You probably already know, but Sebastian is a huge Star Fighters fan.#$b#He gets that from me, actually. I'm the one who introduced him to it.$1",
     	"winter_9_inlaw_Sebastian": "How's Robin been treating you since the marriage?#$b#She's always been overprotective when it comes to Sebastian, so you can always come complain to me if your mother-in-law is getting on your nerves.",
     	
+    
+        "Mon4": "When I married Demetrius, I thought his careful way of thinking meant he would be careful with my heart, too. I was young enough to mistake those two things for the same quality.$2",
+        "Mon6": "He can remember every detail of a research paper, but forget a conversation we had yesterday. I used to laugh it off. Lately, it makes me feel invisible.$2",
+        "Mon8": "Sometimes I feel less like a wife and more like someone who keeps the house running while he works. He doesn't mean to make me feel that way. That doesn't make it hurt less.$s",
+        "Mon10": "I regret marrying Demetrius. There, I've said it. I regret how often I made myself smaller so our marriage would look fine from the outside. I do not regret the children, and I will never let anyone confuse those two things.$a",
+        "Tue4": "Demetrius once described my woodworking as a pleasant distraction. I know he meant it as a compliment. I wanted to ask whether he would call his own work a distraction, but I swallowed the question.$2",
+        "Tue6": "When I ask Demetrius to spend an evening with me, he says he will after he finishes one more thing. There is always one more thing. I stopped planning special dinners because waiting for him made the food cold.$s",
+        "Tue8": "I asked him what he admired about me. He said I was dependable. That's not a bad thing to be, but I wanted him to say something that sounded as though he knew me.$2",
+        "Tue10": "I don't want him to abandon science. I want him to look up from it sometimes and notice the person who has been beside him all these years. Is that really an unreasonable thing to ask?$a",
+        "Fri8": "I used to tell Robin to be patient with Demetrius. I thought I was defending my family. Now I feel ashamed that I made her feel as though she was asking for too much.$s",
+        "Fri10": "I've started thinking about what a separation would look like. Not because I want to punish him. I just need to know that my life could still belong to me.$2",
+        "Sat4": "Demetrius isn't cruel every minute of every day. He can be thoughtful, and he loves his work. That's what makes this so difficult: I keep remembering the good moments whenever I try to explain the bad ones.$2",
+        "Sat8": "Maru asked me whether everything was all right. I told her adults sometimes disagree. She looked at me and said, 'You say that a lot.' Children shouldn't have to learn to read a room like that.$s",
+        "Sat10": "I don't know whether I'm ready to leave. I only know that staying cannot mean accepting the same loneliness forever. I need to stop pretending that silence is peace.$2",
+        "Sun8": "Demetrius apologized this morning. I believe he was sincere. But an apology is a beginning, not a repair. I need to see him make room for me when there isn't a crisis forcing him to.$2",
+        "Sun10": "I sometimes wish I could go back and tell the younger version of myself that being chosen is not the same as being cherished. I regret marrying him, but I am trying not to let that regret decide the rest of my life.$s",
     }
