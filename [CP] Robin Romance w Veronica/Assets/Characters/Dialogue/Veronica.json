@@ -61,40 +61,22 @@
         "Fri4_inlaw_Sebastian": "Sebastian told me he's trying to quit smoking! I'm really proud of him.",
         "Fri6": "Do you think Sebastian would let me sit in on one of those games he plays with Sam?#$b#Hmm, maybe not. Most people probably don't want their aunt playing those kinds of games with them.$2#$b#Oh, @, you and I should play a game like that sometime. It might be fun.$1",
         "Sat": "Our house is in such a beautiful area, don't you think?#$e#I love the fresh air of the mountains.",
-        "Sat2_1": "
-				I'd love to get an orange cat whose fur is super fluffy.
-				#$q 85346/85347 catVer_followup#What do you think?
-				#$r 85346 10 catVer_yes#Yeah you should.
-				#$r 85347 0 catVer_no#No you shouldn't.
-				",
+        "Sat2_1": "\n\t\t\t\tI'd love to get an orange cat whose fur is super fluffy.\n\t\t\t\t#$q 85346/85347 catVer_followup#What do you think?\n\t\t\t\t#$r 85346 10 catVer_yes#Yeah you should.\n\t\t\t\t#$r 85347 0 catVer_no#No you shouldn't.\n\t\t\t\t",
 			"catVer_yes": "Yeah, I'd really love to, but I'm not sure the family would appreciate that.$2",
 			"catVer_no": "You're probably right, I don't think the family would be very appreciative if I brought one home all of a sudden.$2",
 			"catVer_followup": 
-				"$p 85346
-				#I still want to adopt a cat, but I'm waiting until the whole family can come around to the idea.
-				|I suppose I should give up on adopting a cat, there's no chance that I can convince the family to be okay with one in the house.$2
-				",
+				"$p 85346\n\t\t\t\t#I still want to adopt a cat, but I'm waiting until the whole family can come around to the idea.\n\t\t\t\t|I suppose I should give up on adopting a cat, there's no chance that I can convince the family to be okay with one in the house.$2\n\t\t\t\t",
         "Sat2_2": "Our house is in such a beautiful area, don't you think?#$e#I love the fresh air of the mountains.",
         "Sat6": "One of my favorite things about being up here in the mountains is sitting outside and drinking a warm cup of coffee.#$b#It's nice that the newspaper is still running too. I know most people would probably prefer to use a screen, but I still like reading the comics in the paper the old fashioned way.$4#$b#There's nothing like a warm cup of coffee and the comics section to start your day.$1",
         "Sun": "I hope Demetrius doesn't blow the house up with those science experiments of his.#$e#I'm not even sure what he's working on. I think it has something to do with plants.",
         "Sun2": "#$1 VeronicaDem#Demetrius left an experiment running late last night. I asked him to shut it down before we went to bed, but he said the readings were too important to interrupt.#$e#Nothing caught fire this time. Still, I hate having to argue just to feel safe in my own home.$u#$b#He called my concern an overreaction. I wish he would listen before he starts measuring whether I'm right.",
-        "Sun4": "
-				Hi @!
-				#$q 85434/85435 favColorVer_followup#I'm curious, do you know what my favorite color is?
-				#$r 85434 20 favColorVer_pink#Pink.
-				#$r 85434 10 favColorVer_orange#Orange.
-				#$r 85434 0 favColorVer_science#450nm.
-				#$r 85435 -10 favColorVer_jerk#Why do I care?
-			",
+        "Sun4": "\n\t\t\t\tHi @!\n\t\t\t\t#$q 85434/85435 favColorVer_followup#I'm curious, do you know what my favorite color is?\n\t\t\t\t#$r 85434 20 favColorVer_pink#Pink.\n\t\t\t\t#$r 85434 10 favColorVer_orange#Orange.\n\t\t\t\t#$r 85434 0 favColorVer_science#450nm.\n\t\t\t\t#$r 85435 -10 favColorVer_jerk#Why do I care?\n\t\t\t",
 		"favColorVer_pink": "Hey, you got it right!$1",
 		"favColorVer_orange": "Nope, wrong. I can't blame you for not knowing though.$4#$b#Pink is the right answer.$0",
 		"favColorVer_science": "Uh...$2#$b#Hmm, sounds like something Demetrius might understand.#$b#By the way, pink is the right answer.$0",
 		"favColorVer_jerk": "Okay... Sorry for asking.$3",
 		"favColorVer_followup":
-			"$p 85434
-			#I almost was yelled at the other day when I suggested painting a bedroom pink.$2#$b#I guess not everyone can appreciate such a beautiful color#1.
-			|Oh hey.
-			",
+			"$p 85434\n\t\t\t#I almost was yelled at the other day when I suggested painting a bedroom pink.$2#$b#I guess not everyone can appreciate such a beautiful color#1.\n\t\t\t|Oh hey.\n\t\t\t",
         "Sun6": "Hi @! It's good to see you.#$e#You're a regular member of the community now, don't you think?",
         "event_wood1": "Great, then this blueprint should be a piece of cake for you!$h",
         "event_wood2": "Well, then I have the perfect blueprint to get you started!",
