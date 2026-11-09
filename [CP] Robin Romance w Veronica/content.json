@@ -1733,13 +1733,7 @@
 		"Entries": {
 			//"AcceptGift_(O)Book_Woodcutting": "What's this... 'Woody's Secret'? ... Is there something you'd like to propose to me, @?$6#$b#Oh, it's about woodcutting! Hahaha... Is it wrong if I say I'm a little disappointed?$1",
 			"AcceptGift_(O)Book_Woodcutting": "What's this... 'Woody's Secret'? ...#$b#${I guess I'll be finding out tonight, right?$6^So this must be what you received in the mail the other day. I look forward to finding out the secret tonight.$6^Hmm, sounds like you have something interesting in mind.$6}$#$b#Oh, it's about woodcutting! Hahaha... Is it wrong if I say I'm a little disappointed?$1",
-			"AcceptGift_(O)426": "Hear me out, okay. We can use this goat cheese instead of Parmesan on our spaghetti tonight.#$b#
-				$q 13333/13334 gcheeseregrets#Does that face you're making mean you regret your gift?
-				#$r 13333 10 no_regrets#Goat cheese spaghetti sounds great!
-				#$r 13333 5 some_regrets#Of course not! I'm just a little hesitant is all.
-				#$r 13334 -10 regrets_mean#Of course! That's so gross!
-				#$r 13334 0 regrets_keep_peace#Uh... I'm happy that you're happy?
-				#$r 13334 5 regrets_normal#You try it on your spaghetti. As for me, I think I'll stick with Parmesan.",
+			"AcceptGift_(O)426": "Hear me out, okay. We can use this goat cheese instead of Parmesan on our spaghetti tonight.#$b#\n\t\t\t\t$q 13333/13334 gcheeseregrets#Does that face you're making mean you regret your gift?\n\t\t\t\t#$r 13333 10 no_regrets#Goat cheese spaghetti sounds great!\n\t\t\t\t#$r 13333 5 some_regrets#Of course not! I'm just a little hesitant is all.\n\t\t\t\t#$r 13334 -10 regrets_mean#Of course! That's so gross!\n\t\t\t\t#$r 13334 0 regrets_keep_peace#Uh... I'm happy that you're happy?\n\t\t\t\t#$r 13334 5 regrets_normal#You try it on your spaghetti. As for me, I think I'll stick with Parmesan.",
 			//may have issues with commands in below $p? Should work, I believe? Should probably test.
 			"gcheeseregrets": "$p 13333 #Thank you, @!$h.#$b#We can make that spaghetti with it again. Unless you have any better ideas.|Thank you, @. Even if you nearly regretted it last time.#$b#I promise I won't make you eat something that sounds unappealing to you.",
 			"no_regrets": "Oh, good.$7#It does sound delicious, doesn't it?$h",
