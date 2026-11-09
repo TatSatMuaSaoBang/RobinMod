@@ -114,5 +114,9 @@
     	"Blacksmith_4_15": "Clint occasionally calls me over to do some odd jobs. Other weeks we just talk.#$b#*whispers* I think he's really lonely. Most of the jobs he wants me to do are things he could have taken care of with relative ease.$2",
     	"Town_49_24": "Oh, hey, @!#$b#I'm just looking over the old community center.#$b#I'm imagining what I could do to fix it up, if Joja doesn't get their grubby hands on it first. I can only work so fast.$3",
     	"Town_51_92": "I found a leftover egg from the egg hunt.#$b#Don't worry, it's not rotten, it's a plastic one.#$e#Let's open it up and see what's inside. Oh, just a slip of paper. I wonder if Pierre hid it for Abigail to find?#$e#Well good night!$1#$e#Huh? What did it say? Seemed like gibberish to me, maybe it wasn't Pierre but one of the Shadow People.#$e#It said: \"Time to Close For now. a Vacant Shell Finds no peace.\"$2",
-        
+        "SeedShop_23_18": "Pierre still lets me borrow the back table when I need to sort out a few plans. I promise I won't leave sawdust in his shop.$h",
+        "SeedShop_15_20": "I was checking whether Pierre needed help fixing one of his shelves. He said it was fine, but I think he just didn't want me turning a five-minute repair into a whole afternoon.$1",
+        "ArchaeologyHouse_11_9": "The museum always makes me curious about the people who lived here before us. Imagine the tools they built with what they had. I'd love to see how their workshops were arranged.$h",
+        "Hospital_2_17": "I stopped by to check whether Maru needed anything. She works hard, and sometimes I worry she forgets to take a proper break.$2"
+
 }
