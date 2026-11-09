@@ -511,12 +511,7 @@
 	    }
 	  }
 	},
-	/*{
-		"LogName": "LoadingSpouseRoom",
-		"Action": "Load",
-		"Target": "Maps/{{ModId}}_SpouseRoomRam",
-		"FromFile": "Assets/Maps/SpouseRooms/SpouseRoomRam.tmx",
-	},*/
+
     {
       "LogName": "Gift tastes",
       "Action": "EditData",
@@ -1951,6 +1946,10 @@
 		"Entries": {
     		"mountain_28_24": "I love the mountains. The fresh air and the view can't be beat!$1#$b#I also get to see Maru and Sebastian when I come up here.$0#$b#I miss living with them, but I think the way things are is probably for the best.$2",
     		"Town_51_90": "I found a leftover egg from the egg hunt.#$b#Don't worry, it's not rotten, it's a plastic one.#$e#Let's open it up and see what's inside. Oh, just a slip of paper. I wonder if Pierre hid it for Abigail to find?#$e#Well good night!$1#$e#Huh? What did it say? Seemed like gibberish to me, maybe it wasn't Pierre but one of the Shadow People.#$e#It said: \"Time to Close For now. a Vacant Shell Finds no peace.\"$2",
+            "Beach_40_36": "This stretch of beach is quieter than the main path. I like it here; the sound of the waves makes it easier to think through a design.$h",
+            "forest_40_36": "The forest feels different when I take a path I don't usually use. I found a good place to sit and sketch a few ideas.$1",
+            "forest_112_40": "I walked a little farther than I meant to. At least I found a peaceful spot to plan my next project.$h",
+            "Town_44_89": "The town square is busy today. I enjoy seeing everyone out and about, even when I don't have a repair job to do.$1",
     				},
     	"When": {
 			"HasMod": "FlashShifter.StardewValleyExpandedCP",
