@@ -122,7 +122,7 @@
     "Fri10": "I used to think starting over meant becoming a completely different person.#$b#Now I think it means keeping the parts of yourself worth keeping, and finally making room for the rest.$6",
     "Sat2": "I have a confession. I once stayed up far too late playing a game because I wanted to see whether I could solve it without looking up a guide.#$b#I did solve it. At sunrise. My neck was stiff for two days, but I won.$h",
     "Sun4": "Leah has been a wonderful friend to me. We can spend an entire afternoon working on separate projects without feeling the need to fill every quiet moment.#$b#It's a rare kind of comfort. I'm lucky to have found it.$1",
-    "Sun8": "When I was younger, I thought family meant everyone living under one roof and eating at the same table.#$b#I've learned that it can be messier than that. People move, people change, people need space... and they can still belong to one another.$2",
+    "Sun8": "When I was younger, I thought family meant everyone living under one roof and eating at the same table.#$b#I've learned that it can be messier than that. Demetrius and I had to find a new way to be a family after we separated.#$b#Now I worry about Veronica. I hear her making some of the same excuses I used to make for him. I won't tell her what to do, but I hope she remembers that a marriage should make room for two people.$2",
     "spring_Tue": "Spring makes me want to build something with the windows open. Fresh air, birds outside, and absolutely no reason to rush. That's my kind of workday.$h",
     "summer_Wed": "Summer is when every project seems possible. Then the afternoon heat arrives and reminds me that I'm not made of hardwood.$2",
     "fall_Sat": "I love the way the Valley looks in autumn. The colors make me want to build a little cabin with a wide porch and a roof that sounds lovely when the rain comes.$1",
@@ -140,5 +140,9 @@
     "Town_45_78": "I like this quiet corner of town. It's a good place to think through a design before I start cutting wood.$1",
     "forest_104_36": "There's something lovely about this part of the forest. If I ever build a small cabin, I'd want it to have a view like this.$h",
     "Forest_92_22": "I come out here when I need to clear my head. The forest has a way of making even complicated problems feel manageable.$1",
-    "ScienceHouse_4_4": "I still remember how small this place felt when the kids were little. It never seemed small enough to contain all their questions.$2"
+    "ScienceHouse_4_4": "I still remember how small this place felt when the kids were little. It never seemed small enough to contain all their questions.$2",
+    "spring_Fri": "Evelyn always asks how the workshop is going, and she actually waits for the answer. It's a small thing, but I appreciate people who make time to listen.$1",
+    "summer_Sat": "Willy brought me a broken tackle box to repair. He said it had been with him for years. I like making something useful again, especially when it carries a bit of someone's history.$h",
+    "fall_Tue": "Marnie has a way of noticing when people need help before they ask. I could learn something from her. She never makes a fuss about it, either.$1",
+    "winter_Thu": "Gus keeps this town going in ways people don't always notice. A warm meal, a familiar chair, a place to sit after a difficult day... That matters more than people think.$1"
 }
