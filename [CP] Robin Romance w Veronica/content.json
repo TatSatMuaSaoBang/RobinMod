@@ -91,7 +91,7 @@
       "LogName": "Sprites", 
       "Action": "Load",
       "Target": "Characters/Ram",
-      "FromFile": "assets/characters/Ram.png",
+      "FromFile": "Assets/Characters/Ram.png",
       "When": {
       		"EnableRobinAltSprites": "False"
       		}
@@ -100,25 +100,27 @@
       "LogName": "Sprites_Alt", 
       "Action": "Load",
       "Target": "Characters/Ram",
-      "FromFile": "assets/characters/Ram_Alt.png",
+      "FromFile": "Assets/Characters/Ram_Alt.png",
       "When": {
-      		"EnableRobinAltSprites": "True"
+      		"EnableRobinAltSprites": "True",
+            "Season": "Spring, Summer, Fall"
       		},
     },
 	{ //Does not actually have winter sprites, unfortunatly. But this keeps the use of the alt sprites even in winter.
       "LogName": "Sprites_Alt_No_Winter", 
       "Action": "Load",
       "Target": "Characters/Ram",
-      "FromFile": "assets/characters/Ram_Alt_winter.png",
+      "FromFile": "Assets/Characters/Ram_Alt_winter.png",
       "When": {
       		"EnableRobinAltSprites": "True",
+            "Season": "Winter"
       		},
     },
     {
       "LogName": "Portraits",
       "Action": "Load",
       "Target": "Portraits/Ram",
-      "FromFile": "assets/portraits/Ram.png",
+      "FromFile": "Assets/Portraits/Ram.png",
     },
 	{
 		"LogName": "Ram Winter Sprites",
@@ -142,7 +144,7 @@
 		"LogName": "Portraits",
 		"Action": "Load",
 		"Target": "Portraits/Ram_Summer",
-		"FromFile": "assets/portraits/Ram_Summer.png"
+		"FromFile": "Assets/Portraits/Ram_Summer.png"
 	},
 	{
 		"LogName": "Ram Summer Sprites",
@@ -154,21 +156,147 @@
       "LogName": "Dialogue",
       "Action": "Load",
       "Target": "Characters/Dialogue/Ram",
-      "FromFile": "assets/characters/dialogue/Ram.json",
+      "FromFile": "Assets/Characters/Dialogue/Ram.json",
     },
     {
       "LogName": "MarriageDialogue",
       "Action": "Load",
       "Target": "Characters/Dialogue/MarriageDialogueRam",
-      "FromFile": "assets/characters/dialogue/MarriageDialogueRam.json",
+      "FromFile": "Assets/Characters/Dialogue/MarriageDialogueRam.json",
     },
     {
       "LogName": "Schedule",
       "Action": "Load",
       "Target": "Characters/schedules/Ram",
-      "FromFile": "assets/characters/schedules/Ram.json",
+      "FromFile": "Assets/Characters/Schedules/Ram.json",
     },
 
+    {
+      "LogName": "Seasonal sprite Spring",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Spring",
+      "FromFile": "Assets/Characters/Robin_Spring.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal portrait Spring",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Spring",
+      "FromFile": "Assets/Portraits/Robin_Spring.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal sprite Summer",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Summer",
+      "FromFile": "Assets/Characters/Robin_Summer.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal portrait Summer",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Summer",
+      "FromFile": "Assets/Portraits/Robin_Summer.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal sprite Fall",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Fall",
+      "FromFile": "Assets/Characters/Robin_Fall.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal portrait Fall",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Fall",
+      "FromFile": "Assets/Portraits/Robin_Fall.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal sprite Winter_Indoor",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Winter_Indoor",
+      "FromFile": "Assets/Characters/Robin_Winter_Indoor.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal portrait Winter_Indoor",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Winter_Indoor",
+      "FromFile": "Assets/Portraits/Robin_Winter_Indoor.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal sprite Winter_Outdoor",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Winter_Outdoor",
+      "FromFile": "Assets/Characters/Robin_Winter_Outdoor.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal portrait Winter_Outdoor",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Winter_Outdoor",
+      "FromFile": "Assets/Portraits/Robin_Winter_Outdoor.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal sprite Beach",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Beach",
+      "FromFile": "Assets/Characters/Robin_Beach.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal portrait Beach",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Beach",
+      "FromFile": "Assets/Portraits/Robin_Beach.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal sprite Aerobics",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_Aerobics",
+      "FromFile": "Assets/Characters/Robin_Aerobics.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal portrait Aerobics",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_Aerobics",
+      "FromFile": "Assets/Portraits/Robin_Aerobics.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal sprite FlowerDance",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_FlowerDance",
+      "FromFile": "Assets/Characters/Robin_FlowerDance.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal portrait FlowerDance",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_FlowerDance",
+      "FromFile": "Assets/Portraits/Robin_FlowerDance.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal sprite SpiritsEve",
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Robin_SpiritsEve",
+      "FromFile": "Assets/Characters/Robin_SpiritsEve.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
+    {
+      "LogName": "Seasonal portrait SpiritsEve",
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Robin_SpiritsEve",
+      "FromFile": "Assets/Portraits/Robin_SpiritsEve.png",
+      "When": { "EnableRobinSeasonalOutfits": "True" }
+    },
 	{
 		"LogName": "NPC Character Data",
 		"Action": "EditData",
@@ -177,7 +305,7 @@
 			"Ram": {
 				"DisplayName": "Robin",
 				"BirthSeason": "Fall",
-				"Birthday": 21,
+				"BirthDay": 21,
 				"HomeRegion": "Town",
 				"Gender": "Female",
 				"Age": "Adult",
@@ -265,45 +393,124 @@
 					"Tile": { "X": 13, "Y": 5 },
 				},
 				],
-			"Appearance": [
-				{
-					"Id": "Winter_Outdoor",
-					"Condition": null,
-					"Season": "Winter",
-					"Indoors": false,
-					"Outdoors": true,
-					"Portrait": "Portraits/Ram_Winter_Outdoor",
-					"Sprite": "Characters/Ram_Winter",
-					"IsIslandAttire": false,
-					"Precedence": -100,
-					"Weight": 0
-				},
-				{
-					"Id": "Winter_Indoor",
-					"Condition": null,
-					"Season": "Winter",
-					"Indoors": true,
-					"Outdoors": false,
-					"Portrait": "Portraits/Ram_Winter_Indoor",
-					"Sprite": "Characters/Ram_Winter",
-					"IsIslandAttire": false,
-					"Precedence": -100,
-					"Weight": 0
-				},
-				{
-					"Id": "Summer",
-					"Condition": null,
-					"Season": "Summer",
-					"Portrait": "Portraits/Ram_Summer",
-					"Sprite": "Characters/Ram_Summer",
-					"IsIslandAttire": false,
-					"Precedence": -100,
-					"Weight": 0
-				}
-			]
+			"Appearance": []
 		  }
 		}
 	  },
+{
+	  "LogName": "Robin seasonal outfit appearances",
+	  "Action": "EditData",
+	  "Target": "Data/Characters",
+	  "TargetField": [
+	    "Ram",
+	    "Appearance"
+	  ],
+	  "When": {
+	    "EnableRobinSeasonalOutfits": "True"
+	  },
+	  "Entries": {
+	    "{{ModId}}_Robin_Spring": {
+	      "Id": "{{ModId}}_Robin_Spring",
+	      "Season": "Spring",
+	      "Indoors": true,
+	      "Outdoors": true,
+	      "Precedence": -100,
+	      "Portrait": "Portraits/{{ModId}}_Robin_Spring",
+	      "Sprite": "Characters/{{ModId}}_Robin_Spring",
+	      "IsIslandAttire": false,
+	      "Weight": 1
+	    },
+	    "{{ModId}}_Robin_Summer": {
+	      "Id": "{{ModId}}_Robin_Summer",
+	      "Season": "Summer",
+	      "Indoors": true,
+	      "Outdoors": true,
+	      "Precedence": -100,
+	      "Portrait": "Portraits/{{ModId}}_Robin_Summer",
+	      "Sprite": "Characters/{{ModId}}_Robin_Summer",
+	      "IsIslandAttire": false,
+	      "Weight": 1
+	    },
+	    "{{ModId}}_Robin_Fall": {
+	      "Id": "{{ModId}}_Robin_Fall",
+	      "Season": "Fall",
+	      "Indoors": true,
+	      "Outdoors": true,
+	      "Precedence": -100,
+	      "Portrait": "Portraits/{{ModId}}_Robin_Fall",
+	      "Sprite": "Characters/{{ModId}}_Robin_Fall",
+	      "IsIslandAttire": false,
+	      "Weight": 1
+	    },
+	    "{{ModId}}_Robin_Winter_Indoor": {
+	      "Id": "{{ModId}}_Robin_Winter_Indoor",
+	      "Season": "Winter",
+	      "Indoors": true,
+	      "Outdoors": false,
+	      "Precedence": -100,
+	      "Portrait": "Portraits/{{ModId}}_Robin_Winter_Indoor",
+	      "Sprite": "Characters/{{ModId}}_Robin_Winter_Indoor",
+	      "IsIslandAttire": false,
+	      "Weight": 1
+	    },
+	    "{{ModId}}_Robin_Winter_Outdoor": {
+	      "Id": "{{ModId}}_Robin_Winter_Outdoor",
+	      "Season": "Winter",
+	      "Indoors": false,
+	      "Outdoors": true,
+	      "Precedence": -100,
+	      "Portrait": "Portraits/{{ModId}}_Robin_Winter_Outdoor",
+	      "Sprite": "Characters/{{ModId}}_Robin_Winter_Outdoor",
+	      "IsIslandAttire": false,
+	      "Weight": 1
+	    },
+	    "{{ModId}}_Robin_Beach": {
+	      "Id": "{{ModId}}_Robin_Beach",
+	      "Season": "Summer",
+	      "Indoors": false,
+	      "Outdoors": true,
+	      "Condition": "LOCATION_NAME Target Beach",
+	      "Precedence": -300,
+	      "Portrait": "Portraits/{{ModId}}_Robin_Beach",
+	      "Sprite": "Characters/{{ModId}}_Robin_Beach",
+	      "IsIslandAttire": false,
+	      "Weight": 1
+	    },
+	    "{{ModId}}_Robin_Aerobics": {
+	      "Id": "{{ModId}}_Robin_Aerobics",
+	      "Indoors": true,
+	      "Outdoors": false,
+	      "Condition": "LOCATION_NAME Target SeedShop, DAY_OF_WEEK Tuesday",
+	      "Precedence": -300,
+	      "Portrait": "Portraits/{{ModId}}_Robin_Aerobics",
+	      "Sprite": "Characters/{{ModId}}_Robin_Aerobics",
+	      "IsIslandAttire": false,
+	      "Weight": 1
+	    },
+	    "{{ModId}}_Robin_FlowerDance": {
+	      "Id": "{{ModId}}_Robin_FlowerDance",
+	      "Indoors": false,
+	      "Outdoors": true,
+	      "Condition": "SEASON Spring, DAY_OF_MONTH 24",
+	      "Precedence": -500,
+	      "Portrait": "Portraits/{{ModId}}_Robin_FlowerDance",
+	      "Sprite": "Characters/{{ModId}}_Robin_FlowerDance",
+	      "IsIslandAttire": false,
+	      "Weight": 1
+	    },
+	    "{{ModId}}_Robin_SpiritsEve": {
+	      "Id": "{{ModId}}_Robin_SpiritsEve",
+	      "Indoors": false,
+	      "Outdoors": true,
+	      "Condition": "SEASON Fall, DAY_OF_MONTH 27",
+	      "Precedence": -500,
+	      "Portrait": "Portraits/{{ModId}}_Robin_SpiritsEve",
+	      "Sprite": "Characters/{{ModId}}_Robin_SpiritsEve",
+	      "IsIslandAttire": false,
+	      "Weight": 1
+	    }
+	  }
+	},
 	/*{
 		"LogName": "LoadingSpouseRoom",
 		"Action": "Load",
@@ -1757,6 +1964,9 @@
 		"Entries": {
 			"Mon": "800 Forest 40 13 0/1200 HaleyHouse 15 16 2/1530 Beach 40 36 2/2100 LeahHouse 13 5 2",
         	"Tue": "630 Mountain 28 24 2/1100 Hospital 2 17 0/1300 SeedShop 23 18 0/1630 Saloon 4 19 2/2000 LeahHouse 13 5 2",
+            "marriage_Tue": "630 Mountain 28 24 2/1100 Hospital 2 17 0/1300 SeedShop 23 18 0/1630 Saloon 4 19 2/2000 BusStop -1 23 3",
+            "marriage_Sat": "1130 HaleyHouse 4 15 2/1500 Town 44 89 3/1700 Saloon 4 19 2/2300 BusStop -1 23 3",
+            "marriage_Sun": "700 Mountain 28 24 2/1130 SebastianRoom 8 6 0/1500 Town 45 78 2/1800 BusStop -1 23 3",
         	//"Wed": "900 AnimalShop 14 16 0/1100 ScienceHouse 6 20 0/1500 Forest 92 20 1/2000 LeahHouse 13 5 2",
         	//"Thu": "1000 Blacksmith 4 15 0/1400 SeedShop 15 20 0/1600 Town 49 24 0/2000 LeahHouse 13 5 2",
         	"Fri": "800 Mountain 28 24 2/1300 SeedShop 27 13 2/1700 Forest 41 10 2/2100 LeahHouse 13 5 2",
