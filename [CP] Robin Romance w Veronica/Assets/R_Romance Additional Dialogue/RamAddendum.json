@@ -89,20 +89,11 @@
       "Entries": {
         "Wed4": "It may seem silly to you, but Robin and I actually bonded over our love of goat cheese. That's how we became friends.#$b#Not enough people appreciate it.$u",
         "summer_Sun6": "What should I do on such a warm, lazy day? *sigh*#$e#Any ideas?",
-        "Tue_inlaw_Ram": "I hope you don't mind me stopping by so often. Robin and I have so much fun working on our projects together.
-        #$q 44542/44543 former_roomie_followup#%How do you answer?
-        	#$r 44542 20 former_roomie_ecstatic#You're welcome anytime!
-        	#$r 44542 10 former_roomie_positive#It's no problem.
-        	#$r 44543 -10 former_roomie_negative#You come way too often.
-        	",
+        "Tue_inlaw_Ram": "I hope you don't mind me stopping by so often. Robin and I have so much fun working on our projects together.\n        #$q 44542/44543 former_roomie_followup#%How do you answer?\n        \t#$r 44542 20 former_roomie_ecstatic#You're welcome anytime!\n        \t#$r 44542 10 former_roomie_positive#It's no problem.\n        \t#$r 44543 -10 former_roomie_negative#You come way too often.\n        \t",
         "former_roomie_ecstatic": "Thanks @!$h",
         "former_roomie_positive": "Thanks @!$h",
         "former_roomie_negative": "I'm sorry, I'll stop coming by.$s",
-        "former_roomie_followup": "
-        	$p 44542
-        	#I can't wait to work with Robin on our new project! I'll see you at your place @!$h
-        	|Hi @. Don't worry, I won't be stopping by anytime soon.$s
-        	",
+        "former_roomie_followup": "\n        \t$p 44542\n        \t#I can't wait to work with Robin on our new project! I'll see you at your place @!$h\n        \t|Hi @. Don't worry, I won't be stopping by anytime soon.$s\n        \t",
       },
       "When": {
       	"DisableOnlyNonFamily": "False",
@@ -141,18 +132,11 @@
       "Entries": {
        	"Mon8": "It was hard at first, but now I think we're all a lot happier.$s#$b#Mom and dad hadn't been happy, and even if their divorce was rough on the family, we're all better for it now.$0",
         "Tue4": "Since mom moved out, I've had 30% less broken gadgets and gizmos lying around.$h#$b#She always had a tendency to pick up and play with things she didn't understand how to operate.$0",
-      	"fall_21": "I made a custom sander for mom's birthday. 
-      	#$q 43447/43448 MRam_bday_followup#Do you think she'll like it, @?
-      	#$r 43447 10 MRam_bday_yes#Yes
-      	#$r 43448 0 MRam_bday_no#No
-      	",
+      	"fall_21": "I made a custom sander for mom's birthday. \n      \t#$q 43447/43448 MRam_bday_followup#Do you think she'll like it, @?\n      \t#$r 43447 10 MRam_bday_yes#Yes\n      \t#$r 43448 0 MRam_bday_no#No\n      \t",
       	"MRam_bday_yes": "I'm hoping so.$h",
       	"MRam_bday_no": "Oh no, should I have done something else?$s",
       	"MRam_bday_followup": 
-      		"$p 43447
-      		#Mom really loved that sander, but what am I supposed to do to top that this year?$s
-      		|I made mom a custom sander for her birthday before, but what am I supposed to do this year?$s
-      		",
+      		"$p 43447\n      \t\t#Mom really loved that sander, but what am I supposed to do to top that this year?$s\n      \t\t|I made mom a custom sander for her birthday before, but what am I supposed to do this year?$s\n      \t\t",
       	"fall_Tue8": "@, I just love how the trees look right now!#$e#I know you like them too.",
      	"Tue4_inlaw_Ram": "It's strange to have a stepparent now. I guess this must be how Sebastian felt for so long.$s",
      	
@@ -212,17 +196,10 @@
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
         "Mon2": "Why does everyone ask how I'm doing? Do they not realize I've had my parents split up once before?$a",
-        "Mon8": "Hey @.
-					#$q 37155/37156 secretSebquestion_followup#Can I trust you with a secret?
-					#$r 37155 10 secretSeb_listen#Yes
-					#$r 37156 0 secretSeb_reject#No
-					",
+        "Mon8": "Hey @.\n\t\t\t\t\t#$q 37155/37156 secretSebquestion_followup#Can I trust you with a secret?\n\t\t\t\t\t#$r 37155 10 secretSeb_listen#Yes\n\t\t\t\t\t#$r 37156 0 secretSeb_reject#No\n\t\t\t\t\t",
 					"secretSeb_listen": "Demetrius is a really nice guy. Even though he's divorced from mom, he treats me like he treats Maru.$u",
 					"secretSeb_reject": "Oh. Okay, then.$s",
-					"secretSebquestion_followup": "$p 37155
-										#I got Demetrius to test out one of the programs I'd written. Compared to mom, there was way less trouble involved.
-										|Hey, @.$s
-										",
+					"secretSebquestion_followup": "$p 37155\n\t\t\t\t\t\t\t\t\t\t#I got Demetrius to test out one of the programs I'd written. Compared to mom, there was way less trouble involved.\n\t\t\t\t\t\t\t\t\t\t|Hey, @.$s\n\t\t\t\t\t\t\t\t\t\t",
         "Fri6": "Mom moving out is such a pain. Now every-time she has a computer problem, I have to go all the way over to Leah's to fix it.$a#$b#And if you thought maybe I should try helping her over the phone, then I suggest you give that a try yourself and see how well it goes.$h",
       	"Thu8_inlaw_Ram": "I guess you're technically my stepdad now. That's...odd.$a^I guess you're technically my stepmom now. That's...odd.$a",
       },
