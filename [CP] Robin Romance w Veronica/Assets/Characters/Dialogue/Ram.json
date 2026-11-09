@@ -1,9 +1,9 @@
 {
         "Introduction": "Hi, nice to meet you.#$b#You probably already met my sister Veronica, but I'm Robin.#$b#I actually own the carpentry shop, but Veronica's been helping me out while I was taking an extended vacation.$4",
 		"FlowerDance_Accept": "Hmm...$2#$b#Yes, actually, that sounds nice. I haven't danced for awhile.$9",
-		//check dialogue commands below to make sure they work
+		
 		"FlowerDance_Accept_Spouse": "Of course, I love dancing with you.$h#$b#Even if it is a little embarrassing to do in public.$7#$b#${Still, I feel so lucky to have such a handsome husband who enjoys dancing with me.$6^Still, I feel so lucky to have such a beautiful wife who enjoys dancing with me.$6^Still, I feel so lucky to have such an amazing partner who enjoys dancing with me.$6}$",
-		"FlowerDance_Decline": "I... No thank you, I don't think I'm ready for that yet.",//Was "danceRejection" pre 1.6
+		"FlowerDance_Decline": "I... No thank you, I don't think I'm ready for that yet.",
         "divorced": "Would you like me to build you a coffin?",
         "dumped_Girls": "You won't care if I find other suitors for myself, will you?",
         "breakUp": "I was afraid this was too good to be true. I guess it was.$s",
@@ -11,12 +11,12 @@
 		"AcceptBirthdayGift_Positive": "This looks delicious! Thanks, @.$1",
 		"AcceptBirthdayGift_Negative": "Yeah, this is, uh, great.$2",
 		"AcceptGift_(O)StardropTea": "Wait a sec... you're giving me this? What a special treat! Thank you.",
-		"AcceptGift_(O)Book_Woodcutting": "What's this... 'Woody's Secret'? ... Um, what kind of book is this, @?$6#$b#Oh, it's about woodcutting! Hahaha... Oh yeah, I'm going to love this. Thanks!$4",// Changes if married, found in content.json
+		"AcceptGift_(O)Book_Woodcutting": "What's this... 'Woody's Secret'? ... Um, what kind of book is this, @?$6#$b#Oh, it's about woodcutting! Hahaha... Oh yeah, I'm going to love this. Thanks!$4",
 		"AcceptGift_(O)SkillBook_2": "Ah, 'Woodcutter's Weekly'... I was hoping to get my hands on the newest issue! They've got all the latest techniques in here!#$b#From one woodcutter to another... Thank you.$h",
-		"AcceptGift_(O)224": "How did you know I've been craving this? Thanks so much, @.$h",//Spaghetti
-		"AcceptGift_(O)426": "Oh, this will go perfect on the wonderful salads Leah makes!#$b#You can't beat something this fresh.#$b#Thanks, @.",//Goat Cheese | Changes if married, found in content.json
-		// The below should work, but if not, the second text after $c is the original verison of this dialogue (starting with a "#$b#" originally).
-		"AcceptGift_(O)636": "It smells great. I think I'll take a bite now.#$b#*munch*#$b#Wow, this peach is really juicy.#$c 0.3#Did you know that Veronica and I used to fight over peaches when we were kids? I let her win, at least most of the time, of course.#It's perfect. Thank you, @.$h",//Peach
+		"AcceptGift_(O)224": "How did you know I've been craving this? Thanks so much, @.$h",
+		"AcceptGift_(O)426": "Oh, this will go perfect on the wonderful salads Leah makes!#$b#You can't beat something this fresh.#$b#Thanks, @.",
+		
+		"AcceptGift_(O)636": "It smells great. I think I'll take a bite now.#$b#*munch*#$b#Wow, this peach is really juicy.#$c 0.3#Did you know that Veronica and I used to fight over peaches when we were kids? I let her win, at least most of the time, of course.#It's perfect. Thank you, @.$h",
 		"GreenRain": "We have no idea if this rain is dangerous. Be careful out there!",
 		"GreenRainFinished": "Looks like I was worried about nothing. What do I know anymore, huh?$s#If we have any other strange weather, it better be Purple Rain.$h",
 		"GreenRain_2": "There's all kinds of good wood out there today. Better get chopping, huh?",
@@ -41,9 +41,9 @@
 		"RejectMermaidPendant_Under10Hearts_AskedAgain": "Do you even listen to anything I say? I've already told you no.#$b#No amount of pleading will make a difference.$3",
 		"SpouseStardrop": "Honey... You've made me so happy, I wanted to give you something special to show how much I love you.#$b#Emily also said it'd give you some extra stamina, though it could be an old wives' tell.$6#$b#Care to see if it's true?$9",
 		"WipedMemory": "I feel like I've forgotten something important.#$b#But I'm not sure I care. Perhaps it was for the better. I feel lighter now.#$b#See you around, @.",
-		//"WinterStar_GiveGift_Before_Spouse": "",
-		//"WinterStar_GiveGift_After_Spouse": "",
-		//"WinterStar_ReceiveGift": "",
+		
+		
+		
 		"Mon": "Have I told you that I built the carpentry shop from the ground up?#$e#It's definitely been the highlight of my career so far.",
     	"Mon6": "I'm itching to start a new project. I recently discovered a little secret out in the woods. Might be nice to build a cabin out there.",
     	"Mon10": "You know, I could be a real help on your farm.#$b#Maintain some fences, work on your buildings.#$b#And it wouldn't hurt that we'd get to wake up next to each other every morning.",
@@ -54,13 +54,7 @@
     	"Wed2": "Your grandpa was a sweet old man. It's sad that he passed, but I'm happy to know his farm is in good hands.",
     	"Wed6": "Something people don't know about your grandpa was that he used to grow a small grove of pumpkins on the farm.#$b#A few days before Spirit's Eve, large pumpkins would show up at the doorstep of all the kid's houses.#$b#Sebby tried to act \"cool,\" but he and Maru would end up laughing and giggling as they tried to decide what to carve.#$b# No one seems to realize it, but Sebby is actually a very adoring big brother towards Maru.$1",
     	"Wed10": "I always thought my last kid would be Maru. But...#$b#I could see having another kid someday. What about you?$7",
-    	"Thu": "Hi there, @!#$e#I was just mulling over which types of wood and trees I like the most.#$b#My favorite wood would have to be oak. My favorite tree though would actually be a cherry blossom.
-    	#$q 7008/7009 woodquestion_followup#Do you have a favorite wood?
-    	#$r 7008 45 fav_oak#I like oak too!
-    	#$r 7008 40 fav_cherry#I really enjoy cherry.
-    	#$r 7008 35 fav_pine#Pine is fine!
-    	#$r 7009 -5 fav_fourofour#There's different types of wood?
-    	#$r 7009 0 fav_none#No, not really.",
+    	"Thu": "Hi there, @!#$e#I was just mulling over which types of wood and trees I like the most.#$b#My favorite wood would have to be oak. My favorite tree though would actually be a cherry blossom.\n     #$q 7008/7009 woodquestion_followup#Do you have a favorite wood?\n     #$r 7008 45 fav_oak#I like oak too!\n     #$r 7008 40 fav_cherry#I really enjoy cherry.\n     #$r 7008 35 fav_pine#Pine is fine!\n     #$r 7009 -5 fav_fourofour#There's different types of wood?\n     #$r 7009 0 fav_none#No, not really.",
     	"woodquestion_followup": "$p 7008 #If you ever want me to make some furniture, I'll make sure to use your favorite wood!$1|Sorry for rambling. Sometimes I think people have as much of a passion for carpentry as I do.$6",
     	"fav_oak": "You have excellent tastes!$1",
     	"fav_cherry": "I am quite fond of cherry, too.$1",
@@ -118,7 +112,7 @@
         "SeedShop_15_20": "I was checking whether Pierre needed help fixing one of his shelves. He said it was fine, but I think he just didn't want me turning a five-minute repair into a whole afternoon.$1",
         "ArchaeologyHouse_11_9": "The museum always makes me curious about the people who lived here before us. Imagine the tools they built with what they had. I'd love to see how their workshops were arranged.$h",
         "Hospital_2_17": "I stopped by to check whether Maru needed anything. She works hard, and sometimes I worry she forgets to take a proper break.$2",
-        // Additional friendship, family, and personal-history dialogue.
+        
         "Mon2": "My parents weren't unkind people. They just had a very particular picture of what a sensible life should look like.#$b#A steady job, tidy clothes, no splinters in your hands. I tried it for a while. Then I found myself repairing a chair instead of listening to the lecture.$1",
         "Mon4": "The first thing I ever built that I was genuinely proud of was a little wooden box. The lid didn't fit, one corner was crooked, and it smelled strongly of glue...#$b#I kept it for years. I suppose I was already a carpenter. I just hadn't admitted it yet.$h",
         "Mon8": "People sometimes think leaving a marriage means you stop caring about the family you built. That's never how it worked for me.#$b#Sebastian and Maru are still my children. Nothing about a change of address can undo that.$2",
