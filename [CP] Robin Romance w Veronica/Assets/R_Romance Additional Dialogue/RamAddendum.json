@@ -506,6 +506,76 @@
     
     */
     
+    {
+      "LogName": "Robin dialogue about Stardew Valley Expanded villagers",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Ram",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "Entries": {
+        "spring_Mon": "I offered to repair a trellis at Blue Moon Vineyard. Sophia apologized three times for the trouble, even though it was a perfectly ordinary repair. She's shy, but there's a lot of determination behind that quiet voice.$1",
+        "summer_Thu": "Andy brought over a gate hinge that had seen better days. He can be blunt, but he works hard and knows his land. I told him I'd fix it. He insisted on paying me in produce, which is a fair trade in my book.$h",
+        "fall_Tue": "Olivia asked for a decorative shelf, while Victor wanted to know how I calculated the load it could hold. I like them both. One cares about how a room feels; the other wants to know why it stays standing.$1",
+        "fall_Sun": "Sophia and Scarlett were talking about costumes when I passed the vineyard. I didn't understand half the references, but I liked seeing them laugh together. It's good when a shy person finds someone who lets them be enthusiastic.$h",
+        "winter_Thu": "Susan has such a practical way of looking at things. She can talk about crops, travel, and the weather without making any of it sound dull. I think she'd get along with half the people in my workshop.$1",
+        "summer_Sun": "Lance has the look of someone who has spent more time on the road than at home. I asked him about his travels, and he answered carefully. I suppose some stories need the right moment.$2"
+      }
+    },
+    {
+      "LogName": "Veronica dialogue about Stardew Valley Expanded villagers",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Veronica",
+      "When": {
+        "EnableVeronica": "True",
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "Entries": {
+        "spring_Mon": "Sophia brought a bottle from Blue Moon Vineyard to the shop. She looked nervous about whether I'd like it, so I told her the truth: the label was lovely, and she should be proud of the work behind it.$h",
+        "summer_Thu": "Olivia has a very polished way of speaking. I think she sometimes forgets that not everyone grew up in the same world she did. Victor seems to be finding his own path, though. I hope she gives him room to do that.$2",
+        "fall_Tue": "Andy looks as though he'd rather argue with a fence post than ask for help. I understand that feeling more than I should. At least he knows how to keep a farm running.$1",
+        "fall_Sun": "I saw Sophia and Scarlett comparing ideas for a costume. They were so excited that I didn't want to interrupt. It's nice to see people who don't have to explain why something makes them happy.$h",
+        "winter_Thu": "Susan has lived a very full life. She talks about travel as though the world is still wide open, and somehow she makes me feel that it is.$1"
+      }
+    },
+    {
+      "LogName": "Demetrius acknowledges his marriage with Veronica",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Demetrius",
+      "When": {
+        "EnableVeronica": "True",
+        "DisableOnlyFamily": "False"
+      },
+      "Entries": {
+        "Tue8": "Veronica says I listen only long enough to prepare a response. I disagree with the wording, but I understand the criticism. I have treated conversations as problems to solve, and that isn't always what she needs.$2",
+        "Fri6": "I thought providing a stable home meant I was doing my part as a husband. Veronica says she needed me beside her, not simply working in the next room. I am beginning to understand the distinction, though understanding it late does not undo the hurt.$2"
+      }
+    },
+    {
+      "LogName": "Maru reacts to tension at home",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maru",
+      "When": {
+        "EnableVeronica": "True",
+        "DisableOnlyFamily": "False"
+      },
+      "Entries": {
+        "winter_Tue": "Dad thinks he can fix almost anything by explaining how it works. Veronica keeps telling him that some things need listening, not an explanation. I wish they would talk to each other without making me feel like the referee.$2"
+      }
+    },
+    {
+      "LogName": "Sebastian reacts to tension at home",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sebastian",
+      "When": {
+        "EnableVeronica": "True",
+        "DisableOnlyFamily": "False"
+      },
+      "Entries": {
+        "summer_Sun": "Dad has been spending more time in the lab, and Veronica has been keeping herself busy at the shop. I don't know what either of them wants me to say. I care about them, but I'm not going to be the messenger between two adults.$s"
+      }
+    }
+
  ]
  }
 
