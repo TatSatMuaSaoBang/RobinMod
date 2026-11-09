@@ -281,17 +281,10 @@
 	  	//"Resort": "Wow, look at these structures!$h#$b#I can tell they were made by a master builder. I'm really impressed!",
   		//"Resort_Leaving": "That was fun!$h",
   		//"Resort_Shore": "Hey, look! I can see another island from here.",
-  		"Resort_Chair": "Hey @.
-  						#$q 5959/5960 resortquestion_followup#I wish we had enough time to watch the sunset together, don't you?
-  							#$r 5959 0 resortquestion_yes#Of course.
-  							#$r 5960 0 resortquestion_no#I'd rather we watched the sunrise.",
+  		"Resort_Chair": "Hey @.\n  \t\t\t\t\t\t#$q 5959/5960 resortquestion_followup#I wish we had enough time to watch the sunset together, don't you?\n  \t\t\t\t\t\t\t#$r 5959 0 resortquestion_yes#Of course.\n  \t\t\t\t\t\t\t#$r 5960 0 resortquestion_no#I'd rather we watched the sunrise.",
   						"resortquestion_yes": "Ah, maybe one day we'll get the free time.$1",
   						"resortquestion_no": "That sounds, fun, if we had the time.$2", //Add blushing swim portaits, is it possible?
-  						"resortquestion_followup": "
-  							$p 5959 
-  							#When we get the time, let's watch the sunset together.$1
-  							|Sunset or sunrise, I could spend all week here with you on vacation. Unfortunately, real life calls.$1
-  							",
+  						"resortquestion_followup": "\n  \t\t\t\t\t\t\t$p 5959 \n  \t\t\t\t\t\t\t#When we get the time, let's watch the sunset together.$1\n  \t\t\t\t\t\t\t|Sunset or sunrise, I could spend all week here with you on vacation. Unfortunately, real life calls.$1\n  \t\t\t\t\t\t\t",
   		//"Resort_Bar": "This is so relaxing...",
   		},
   		"When": {
@@ -304,17 +297,10 @@
 	  "Action": "EditData",
 	  "Target": "Characters/Dialogue/Robin",
 	  "Entries": {
-  		"Resort_Chair": "Hey @.
-  						#$q 5959/5960 resortquestion_followup#I wish we had enough time to watch the sunset together, don't you?
-  							#$r 5959 0 resortquestion_yes#Of course.
-  							#$r 5960 0 resortquestion_no#I'd rather we watched the sunrise.",
+  		"Resort_Chair": "Hey @.\n  \t\t\t\t\t\t#$q 5959/5960 resortquestion_followup#I wish we had enough time to watch the sunset together, don't you?\n  \t\t\t\t\t\t\t#$r 5959 0 resortquestion_yes#Of course.\n  \t\t\t\t\t\t\t#$r 5960 0 resortquestion_no#I'd rather we watched the sunrise.",
   						"resortquestion_yes": "Ah, maybe one day we'll get the free time.$1",
   						"resortquestion_no": "Let's watch the sunrise, then.$2#$b#On second thought, maybe not.$2#$b#I don't like sand, it's coarse and rough and irritating and it gets everywhere.$3",
-  						"resortquestion_followup": "
-  							$p 5959 
-  							#When we get the time, let's watch the sunset together.$1
-  							|Sunset or sunrise, I could spend all week here with you on vacation. Unfortunately, real life calls.$1
-  							",
+  						"resortquestion_followup": "\n  \t\t\t\t\t\t\t$p 5959 \n  \t\t\t\t\t\t\t#When we get the time, let's watch the sunset together.$1\n  \t\t\t\t\t\t\t|Sunset or sunrise, I could spend all week here with you on vacation. Unfortunately, real life calls.$1\n  \t\t\t\t\t\t\t",
   		},
   		"When": {
     		"Spouse": "Ram",
