@@ -4,39 +4,39 @@
       "LogName": "Sprites", 
       "Action": "Load",
       "Target": "Characters/Robin",
-      "FromFile": "assets/characters/Veronica.png",
+      "FromFile": "Assets/Characters/Veronica.png",
     },
 	// If you want the old sprites, then comment out the above, and remove the comment (/* */)from below. "Enabled" was removed as it is no longer supported by Content Patcher.
   /*{
       "LogName": "Sprites_Old", 
       "Action": "Load",
       "Target": "Characters/Robin",
-      "FromFile": "assets/characters/Veronica_Old.png",
+      "FromFile": "Assets/Characters/Veronica_Old.png",
     },*/
     {
       "LogName": "Portraits",
       "Action": "Load",
       "Target": "Portraits/Robin",
-      "FromFile": "assets/portraits/Veronica.png",
+      "FromFile": "Assets/Portraits/Veronica.png",
     },
     // If you want the old portraits, then comment out the above, and remove the comment (/* */)from below. "Enabled" was removed as it is no longer supported by Content Patcher.
 	/* {
       "LogName": "Portraits_Old",
       "Action": "Load",
       "Target": "Portraits/Robin",
-      "FromFile": "assets/portraits/Veronica_Old.png",
+      "FromFile": "Assets/Portraits/Veronica_Old.png",
     },*/
     {
       "LogName": "Dialogue",
       "Action": "Load",
       "Target": "Characters/Dialogue/Robin",
-      "FromFile": "assets/characters/dialogue/Veronica.json",
+      "FromFile": "Assets/Characters/Dialogue/Veronica.json",
     },
     /*{
       "LogName": "Schedule",
       "Action": "Load",
       "Target": "Characters/schedules/Robin",
-      "FromFile": "assets/characters/schedules/Robin.json",
+      "FromFile": "Assets/Characters/Schedules/Robin.json",
     },*/
 	// As of 1.6, NPC Dispositions is now part of Data/Characters. Left in case there should be a need for compatibility with pre-1.6 versions of the game.
   /* {
@@ -90,8 +90,8 @@
 			"DumpsterDiveEmote": null,
 			"FriendsAndFamily": {
 				"Ram": "[LocalizedText Strings\\Characters:Relative_Sister]",
-				"Sebastian": "[LocalizedText Strings\\Characters:Relative_Nephew",
-				"Maru": "[LocalizedText Strings\\Characters:Relative_Niece",
+				"Sebastian": "[LocalizedText Strings\\Characters:Relative_Nephew]",
+				"Maru": "[LocalizedText Strings\\Characters:Relative_Niece]",
 				},
 			"FlowerDanceCanDance": null,
 			"WinterStarGifts": [
