@@ -525,7 +525,7 @@
     {
       "LogName": "Veronica dialogue about Stardew Valley Expanded villagers",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Veronica",
+      "Target": "Characters/Dialogue/Robin",
       "When": {
         "EnableVeronica": "True",
         "HasMod": "FlashShifter.StardewValleyExpandedCP"
